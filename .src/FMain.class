@@ -1,0 +1,27 @@
+' Gambas class file
+
+
+Public Sub BDia_Click()
+
+  Dim num As Byte
+  num = TBNum.Text
+  
+  If (num = 1) Then 
+    LResult.Text = "Es Lunes"
+  Else If (num = 2)
+    LResult.Text = "Es Martes"
+  Else If (num = 3)
+    LResult.Text = "Es Miércoles"
+  Else If (num = 4)
+    LResult.Text = "Es Jueves"
+  Else If (num = 5)
+    LResult.Text = "Es Viernes"
+  Else If (num = 6)
+    LResult.Text = "Es Sábado"
+  Else If (num = 7)
+    LResult.Text = "Es Domingo"
+  Else 
+    LResult.Text = "El número introducido no está entre 1 y 7"
+  Endif
+
+End

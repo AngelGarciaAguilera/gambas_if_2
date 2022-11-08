@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { LResult Label
+    MoveScaled(4,23,55,22)
+    Font = Font["+2"]
+    Alignment = Align.Center
+    Border = Border.Plain
+  }
+  { TBNum TextBox
+    MoveScaled(20,15,24,4)
+  }
+  { LFactura Label
+    MoveScaled(17,9,30,4)
+    Alignment = Align.Center
+    Text = ("Introduzca un número del 1 al 7:")
+  }
+  { BDia Button
+    MoveScaled(24,49,16,4)
+    Text = ("Decir Día")
+  }
+}
